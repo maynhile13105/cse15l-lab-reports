@@ -1,10 +1,11 @@
 **_CSE 15L - LAB REPORT 1_**
 ======================
 
-Used to switch the current working directory.
-
 Command: 'cd'
 ------------
+
+Used to switch the current working directory.
+
 1) _Using with no arguments_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/72b49eb7-b0bc-4ad1-9b60-fdffe1658fe4)
@@ -21,7 +22,7 @@ Command: 'cd'
 This part announces to the user where the working directory is.
 - This is not an error.
 
-3) _Using wwith a path to a file as an argument_
+3) _Using with a path to a file as an argument_
 
    ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/a8398b21-fd6c-4955-94d3-2456a1d04a52)
    
@@ -60,7 +61,7 @@ Used to list the files and folders.
 Command: 'cat'
 -------------
 This command is used to print out the content of files. 
-1) _With no argument_
+1) _Using with no argument_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/1b737300-e61c-4276-ada4-a218038487e0)
 
@@ -71,14 +72,14 @@ This command is used to print out the content of files.
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/513434ed-fa62-408d-8495-3c7a671ee7f6)
 - This is an error. Because 'cat' is the command used to print out the content of files. But no files were passed so it became a bug. This bug seems like a loop and it just ends when we use the key ‘Ctrl’+ ‘C’.
 
-2) _With a path to a directory as an argument_
+2) _Using with a path to a directory as an argument_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/83995680-6e3b-4174-a019-40137ab2fcac)
 - The working directory was /home/lecture1
 - The path we passed was a directory, so after the command was run, we received an output announcing that the path we passed was a directory. As the figure above shows.
 - This is not an error. 
 
-3) _With a path to a file as an argument_
+3) _Using with a path to a file as an argument_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/48ffbe71-ed9c-4638-8494-7dce6ce7d877)
 - The working directory was /home/lecture1.
