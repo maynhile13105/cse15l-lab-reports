@@ -1,9 +1,11 @@
 **_CSE 15L - LAB REPORT 1_**
 ======================
 
+Used to switch the current working directory.
+
 Command: 'cd'
 ------------
-1) _With no arguments_
+1) _Using with no arguments_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/72b49eb7-b0bc-4ad1-9b60-fdffe1658fe4)
 - Before the command was run, the working directory was /home/lecture1. After the command was run, the working directory  was /home
@@ -11,7 +13,7 @@ Command: 'cd'
 - There is no output after the command is executed but there is a little change in the part below the user's name to announce user knows where the working directory is.
 - This is not an error.
 
-2) _With a path to a directory as an argument_
+2) _Using with a path to a directory as an argument_
    
    ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/b9c04828-aebf-44cd-9708-9d567998a03a)
 - Before the command was run, the working directory was /home. After the command was run, the working directory was switched to /home/lecture1/messages.
@@ -19,7 +21,7 @@ Command: 'cd'
 This part announces to the user where the working directory is.
 - This is not an error.
 
-3) _With a path to a file as an argument_
+3) _Using wwith a path to a file as an argument_
 
    ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/a8398b21-fd6c-4955-94d3-2456a1d04a52)
    
@@ -29,25 +31,31 @@ This part announces to the user where the working directory is.
 So, in this case, a new directory was not given so the working directory was not changed.
 
 
-
 Command: 'ls'
 -------------
 
-1) _With no argument_
+Used to list the files and folders.
 
-  ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/3eee7049-9415-49db-85be-32116eb26457)
+1) _Use with no argument_
 
+![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/3eee7049-9415-49db-85be-32116eb26457)
+- Working directory: /home
+- No arguments are passed means that there is no specific directory that the user wants to know. The system automatically defaults to use the current working directory as a given path when this command is run. Therefore, the result we got just a list of folders and files, specifically 'lecture1', in the path /home 
+- This is not an error.
   
+2) _Using with a path to a directory as an argument_
 
-2) _With a path to a directory as an argument_
+![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/4ae1ae42-d0c3-473e-9937-948ed9c1976b)
+- Working directory: /home/lecture1
+- Because we passed a specific path to a directory, instead of listing all files and folders in the current working directory, it goes to the directory we passed and lists all the files and folders there as the output.
+- This is not an error.
 
-  ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/4ae1ae42-d0c3-473e-9937-948ed9c1976b)
-  
+3) _Using with a path to a file as an argument_
 
-3) _With a path to a file as an argument_
-
-  ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/1ea70574-de92-4363-be9e-0e6e558f5398)
-
+![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/1ea70574-de92-4363-be9e-0e6e558f5398)
+- Working directory: /home/lecture1
+- Because a path to a file was passed as an argument, it does not contain any other files and folders. So, there is nothing for the command 'ls' to list because 'ls' is used to list the files and folders in the path. Therefore, we just got the path to the file, same as the one we passed, as an output
+- This is not an error.
 
 Command: 'cat'
 -------------
@@ -66,7 +74,7 @@ This command is used to print out the content of files.
 2) _With a path to a directory as an argument_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/83995680-6e3b-4174-a019-40137ab2fcac)
-- The working directory was /home and it was not changed when the command was executed.
+- The working directory was /home/lecture1
 - The path we passed was a directory, so after the command was run, we received an output announcing that the path we passed was a directory. As the figure above shows.
 - This is not an error. 
 
