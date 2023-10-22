@@ -22,6 +22,7 @@ Used to switch the current working directory.
 This part announces to the user where the working directory is.
 - This is not an error.
 
+
 3) _Using with a path to a file as an argument_
 
    ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/a8398b21-fd6c-4955-94d3-2456a1d04a52)
