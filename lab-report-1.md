@@ -19,8 +19,7 @@ Used to switch the current working directory.
    
    ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/b9c04828-aebf-44cd-9708-9d567998a03a)
 - Before the command was run, the working directory was /home. After the command was run, the working directory was switched to /home/lecture1/messages.
-- Similarly to the case of the command 'cd' with no arguments, there is nothing printed out after the command was executed. However, there is a little change in the part that goes after the user's name. 
-This part announces to the user where the working directory is.
+- Similarly to the case of the command `cd` with no arguments, there is nothing printed out after the command was executed. However, there is a little change in the part that goes after the user's name. 
 - This is not an error.
 
 3) _Using with a path to a file as an argument_
@@ -56,7 +55,7 @@ Used to list the files and folders.
 
 ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/1ea70574-de92-4363-be9e-0e6e558f5398)
 - Working directory: /home
-- Because a path to a file was passed as an argument, it does not contain any other files and folders. So, there is nothing for the command 'ls' to list because 'ls' is used to list the files and folders in the path. Therefore, we just got the path to the file, same as the one we passed, as an output
+- Because a path to a file was passed as an argument, it does not contain any other files and folders. So, there is nothing for the command `ls` to list because `ls` is used to list the files and folders in the path. Therefore, we just got the path to the file, same as the one we passed, as an output
 - This is not an error.
 
 Command: `cat`
@@ -68,7 +67,7 @@ This command is used to print out the content of files.
 
 - The working directory was /home/lecture1/messages and it was not changed when the command was run.
 - No arguments are passed means that no files are given, so right after the command was run, there was nothing happened or printed out. There was just a blank page.
-- When we enter anything later, it doesn't matter if it's a command or not, the system will output exactly what we entered. And other commands after the command `cd` without arguments will be treated as normal text. To execute other commands, we need to get out of this command by pressing the key ‘Ctrl’+‘C’ simultaneously.
+- When we enter anything later, it doesn't matter if it's a command or not, the system will output exactly what we entered. Other commands after the command `cat` without arguments will be treated as normal text. To execute other commands, we need to get out of this command by pressing the key ‘Ctrl’+‘C’ simultaneously.
 - This is not an error.
   
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/513434ed-fa62-408d-8495-3c7a671ee7f6)
@@ -83,7 +82,7 @@ This command is used to print out the content of files.
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/48ffbe71-ed9c-4638-8494-7dce6ce7d877)
 - The working directory was /home.
-- Since the command 'cat' prints out all content in files and is not used to run a file. So, what we get is all the text contained in the README file. It is accurate down to every mark and line break. 
+- Since the command `cat` prints out all content in files and is not used to run a file. So, what we get is all the text contained in the README file. It is accurate down to every mark and line break. 
 - This is not an error.
      
 
