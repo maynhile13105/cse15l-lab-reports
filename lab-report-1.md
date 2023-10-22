@@ -9,6 +9,7 @@ Used to switch the current working directory.
 1) _Using with no arguments_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/72b49eb7-b0bc-4ad1-9b60-fdffe1658fe4)
+
 - Before the command was run, the working directory was /home/lecture1. After the command was run, the working directory  was /home
 - It means that when the command is run without any arguments, the system automatically defaults that the path users want to switch to is /home.
 - There is no output after the command is executed but there is a little change in the part below the user's name to announce user knows where the working directory is.
@@ -21,8 +22,6 @@ Used to switch the current working directory.
 - Similarly to the case of the command 'cd' with no arguments, there is nothing printed out after the command was executed. However, there is a little change in the part that goes after the user's name. 
 This part announces to the user where the working directory is.
 - This is not an error.
-
-
 
 3) _Using with a path to a file as an argument_
 
@@ -69,11 +68,10 @@ This command is used to print out the content of files.
 
 - The working directory was /home/lecture1/messages and it was not changed when the command was run.
 - No arguments are passed means that no files are given, so right after the command was run, there was nothing happened or printed out. There was just a blank page.
-- When we enter anything later, it doesn't matter if it's a command or not, the system will output exactly what we entered. And other commands after the command `cd` without arguments will be treated as normal text.
+- When we enter anything later, it doesn't matter if it's a command or not, the system will output exactly what we entered. And other commands after the command `cd` without arguments will be treated as normal text. To execute other commands, we need to get out of this command by pressing the key ‘Ctrl’+‘C’ simultaneously.
+- This is not an error.
   
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/513434ed-fa62-408d-8495-3c7a671ee7f6)
-- This is not an error. Because 'cat' is the command used to print out the content of files. But no files were passed so it became a bug. This bug seems like a loop and it just ends when we use the key ‘Ctrl’+ ‘C’.
-
 2) _Using with a path to a directory as an argument_
 
   ![image](https://github.com/maynhile13105/cse15l-lab-reports/assets/146885739/83995680-6e3b-4174-a019-40137ab2fcac)
